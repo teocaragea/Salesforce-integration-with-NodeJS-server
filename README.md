@@ -22,13 +22,13 @@ How to run it?
 2. Install modules that we need, so write in terminal: npm install express jsforce dotenv --save
 3. Create .env file (It should be in node folder but i can't attach my credential here, it should contain next fields:
 
-SF_LOGIN_URL = https://login.salesforce.com
+   SF_LOGIN_URL = https://login.salesforce.com
 
-SF_USERNAME = your username
+   SF_USERNAME = your username
 
-SF_PASSWORD = your pass
+   SF_PASSWORD = your pass
 
-SF_TOKEN = security token
+   SF_TOKEN = security token
 
 
 4. Now we have are ready to start the server and see the result of the simple query so write in terminal: node index.js
