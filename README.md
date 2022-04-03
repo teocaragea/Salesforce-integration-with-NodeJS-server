@@ -8,6 +8,15 @@ In the node folder we have 3 files:
 
 3. package.josn where we can see details from the modules that i used
 
+UserCreation.cls:
+
+This is the handler for request that we are sending from our server, i create 3 type of callouts: 
+1. @HttpGet to read records from SF 
+
+2. @HttpPost to create records 
+
+3. @HttpPut to upsert records
+
 How to run it?
 1. Create a folder, open it in Visual Studio code, open a new terminal and write: npm init -y
 2. Install modules that we need, so write in terminal: npm install express jsforce dotenv --save
