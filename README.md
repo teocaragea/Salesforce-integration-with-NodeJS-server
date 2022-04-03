@@ -21,7 +21,7 @@ SF_PASSWORD = your pass
 
 SF_TOKEN = security token
 
-)
+
 4. Now we have are ready to start the server and see the result of the simple query so write in terminal: node index.js
 
 5. Now you can go to the server that we created: http://localhost:3001 in browser (3001 is the port that i set, but you can choose another one). Here we can observe the data that we are retrieving from salesforce, from the app.get request (You can change the query, or the fields and get another data)
